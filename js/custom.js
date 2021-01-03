@@ -54,7 +54,7 @@ var customScripts = {
         $('#mainNav').onePageNav({
             currentClass: 'active',
             changeHash: false,
-            scrollSpeed: 950,
+            scrollSpeed: 750,
             scrollThreshold: 0.2,
             filter: '',
             easing: 'swing',
