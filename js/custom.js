@@ -45,10 +45,10 @@ var customScripts = {
             });
         }
     },
-    fancybox: function () {
+    /* fancybox: function () {
         // fancybox
         $(".fancybox").fancybox();
-    },
+    }, */
     onePageNav: function () {
 
         $('#mainNav').onePageNav({
@@ -97,7 +97,7 @@ var customScripts = {
     init: function () {
         customScripts.onePageNav();
         customScripts.profile();
-        customScripts.fancybox();
+        //customScripts.fancybox();
         customScripts.slider();
         customScripts.owlSlider();
         customScripts.bannerHeight();
